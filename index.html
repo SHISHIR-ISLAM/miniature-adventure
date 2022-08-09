@@ -31,9 +31,11 @@
       rel="stylesheet"
       href="css/8pj9bavxpnma-84b14bd37b7494c0f7dc2312d0e636277e22964c.css"
     />
-    
 
-    <style type="text/css">
+    <!-- myLink  -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <style type="text/css">
       body {
         font-family: 'Raleway';
         font-size: 14px;
@@ -227,7 +229,7 @@
       .section.section--uz3nwkzmjamszl0t {
         --color-link: #ffffff;
       }
-    </style>
+    </style> -->
     <link
       href="https://fonts.googleapis.com/css?family=Playfair+Display:900|Raleway:600,400,500&display=fallback"
       rel="stylesheet"
@@ -293,12 +295,12 @@
           /></a>
           <div class="spacer"></div>
           <div class="headerNav__links">
-            <a href="index.html#features">Features</a
-            ><a href="index.html#form">Spotlight</a
-            ><a href="index.html#AccessCode">Access-Code</a>
+            <a href="index.html#features" class="nav-link">Features</a
+            ><a href="index.html#form" class="nav-link">Spotlight</a
+            ><a href="index.html#AccessCode" class="nav-link">Access-Code</a>
           </div>
           <div class="header__navCtas">
-            <a id="btn_bv6dhnf90t" class="btn" href="index.html#cta"
+            <a id="btn_bv6dhnf90t"  class="btn btn-scale" href="index.html#cta"
               >Download App</a
             >
           </div>
@@ -361,8 +363,8 @@
           class="ft__half pdx pdxParent--img-transparent"
           style="--pdx-maxheight: 1"
         >
-          <div class="pdxItem pdxItem--img-transparent">
-            <img
+          <div class="pdxItem pdxItem--img-transparent moveInLeft">
+            <img class="showcase-image"
               src="lib_EKppZzyPrOkHcFKf/uuf8dcrpljyisxts.png?w=1200&h=900&fit=max"
               srcset="
                 lib_EKppZzyPrOkHcFKf/uuf8dcrpljyisxts.png?w=1200&h=900&fit=max;flib_EKppZzyPrOkHcFKf/uuf8dcrpljyisxts.png?w=1200&h=900&fit=max&dpr=2mp;fit=max&dpr=2 2x
@@ -373,10 +375,10 @@
         <div class="ft__half">
           <div class="ft__wrapper" style="max-width: 485px">
             <div class="ft__content">
-              <h1 class="hero__title color-1 weight-title-h font-title">
+              <h1 class="hero__title color-1 weight-title-h font-title moveInRight">
                 The happening private network
               </h1>
-              <p class="hero__subtitle weight-text">
+              <p class="hero__subtitle weight-text moveInBottom">
                 what happens in viszard, stays in viszard
               </p>
               <div class="ctas">
@@ -441,9 +443,11 @@
     >
       <div class="wr titleAlign--">
         <div class="titleWrapper">
-          <h2 class="color-1 weight-title-h font-title section__title center">
-            Solve for Access Code
-          </h2>
+          <div class="text-center">
+            <h2 class="color-1 weight-title-h font-title section__title center mb-1 heading-scale">
+              Solve for Access Code
+            </h2>
+          </div>
           <p
             class="weight-text section__subtitle center"
             style="margin-bottom: 50px"
@@ -637,9 +641,9 @@
       "
     >
       <div class="wr titleAlign--">
-        <div class="titleWrapper">
+        <div class="titleWrapper text-center">
           <h2
-            class="color-1 weight-title-h font-title section__title center"
+            class="color-1 weight-title-h font-title section__title center heading-scale"
             style="margin-bottom: 50px"
           >
             Why Join Us
@@ -713,7 +717,7 @@
           <div class="wr">
             <div class="cta__titles">
               <h2
-                class="color-1 weight-title-h font-title section__title center"
+                class="color-1 weight-title-h font-title section__title center heading-scale mb-1"
               >
                 Ready to get started?
               </h2>
@@ -785,12 +789,14 @@
     >
       <div class="wr titleAlign--">
         <div class="titleWrapper">
-          <h2
-            class="color-1 weight-title-h font-title section__title center"
-            style="margin-bottom: 50px"
-          >
-            Add Spotlight
-          </h2>
+          <div class="text-center">
+            <h2
+              class="color-1 weight-title-h font-title section__title center heading-scale"
+              style="margin-bottom: 50px"
+            >
+              Add Spotlight
+            </h2>
+          </div>
         </div>
         <div class="formWrapper" style="max-width: 600px; margin: 0 auto">
           <form
@@ -819,7 +825,7 @@
                 <input
                   type="text"
                   id="search-country"
-                  class="form-control form-control-lg"
+                  class="form-control form-control-shadow form-control-lg"
                   placeholder="Country"
                 />
               </div>
@@ -838,7 +844,7 @@
                   disabled
                   type="text"
                   id="search-state"
-                  class="form-control form-control-lg"
+                  class="form-control form-control-shadow form-control-lg"
                   placeholder="State"
                 />
               </div>
@@ -857,7 +863,7 @@
                   disabled
                   type="text"
                   id="search-city"
-                  class="form-control form-control-lg"
+                  class="form-control form-control-shadow form-control-lg"
                   placeholder="City"
                 />
               </div>
@@ -886,8 +892,8 @@
               >
                 <label>Image/GIF<span style="color: darkred"> *</span></label>
                 <div class="cf-file-field">
-                  <button id="btn_jaiu2vmxph" class="btn">Choose File</button
-                  ><input type="file" style="display: none" /><span></span>
+                  <button id="btn_jaiu2vmxph" class="btn form-control-shadow">Choose File</button
+                  ><input type="file" class="form-control-shadow" style="display: none" /><span></span>
                 </div>
               </div>
             </div>
@@ -897,7 +903,7 @@
                 data-label="URL (optional)"
                 data-field="url"
               >
-                <label>URL (optional)</label><input type="url" />
+                <label>URL (optional)</label><input type="url" class="form-control-shadow" />
               </div>
             </div>
             <div id="formCaptcha_gmjqlmr4puy74jzv" class="formCaptcha">
@@ -914,7 +920,7 @@
                     type="text"
                     id="captchaSolution_gmjqlmr4puy74jzv"
                     placeholder="123456"
-                    class="captchaAnswer"
+                    class="captchaAnswer form-control-shadow"
                   />
                 </div>
               </div>
@@ -1268,12 +1274,13 @@
         <div class="stats stats--center">
           <div class="stat">
             <span class="stat__value"
-              ><span data-value="9845" class="countup">9,845</span></span
+              ><span data-value="9845" data-target="9845" class="countup">9,845</span></span
             ><span class="stat__title">Total Users</span>
           </div>
           <div class="stat">
             <span class="stat__value"
-              ><span data-value="2478" class="countup">2,478</span></span
+              >
+              <span data-value="2478" data-target="2478" class="countup">2,478</span></span
             ><span class="stat__title">Users Online</span>
           </div>
         </div>
@@ -1292,12 +1299,14 @@
     >
       <div class="wr titleAlign--">
         <div class="titleWrapper">
-          <h2
-            class="color-1 weight-title-h font-title section__title center"
-            style="margin-bottom: 50px"
-          >
-            FAQ
-          </h2>
+          <div class="text-center"> 
+            <h2
+              class="color-1 weight-title-h font-title section__title center heading-scale"
+              style="margin-bottom: 50px"
+            >
+              FAQ
+            </h2>
+          </div>
         </div>
         <div class="faq">
           <div class="faqItem closed">
@@ -1306,6 +1315,10 @@
             </h3>
             <div class="faqItem__answer">
               <p>Registration process is available inside the app</p>
+              <div class="faq-btn">
+                <i class="fas fa-chevron-down"></i>
+                <i class="fas fa-times"></i>
+              </div>
             </div>
           </div>
           <div class="faqItem closed">
@@ -1314,6 +1327,10 @@
             </h3>
             <div class="faqItem__answer">
               <p>All our products will remain exclusive to our website</p>
+              <div class="faq-btn">
+                <i class="fas fa-chevron-down"></i>
+                <i class="fas fa-times"></i>
+              </div>
             </div>
           </div>
           <div class="faqItem closed">
@@ -1322,6 +1339,10 @@
             </h3>
             <div class="faqItem__answer">
               <p>A spotlight is valid for 24 hours</p>
+              <div class="faq-btn">
+                <i class="fas fa-chevron-down"></i>
+                <i class="fas fa-times"></i>
+              </div>
             </div>
           </div>
           <div class="faqItem closed">
@@ -1332,6 +1353,10 @@
               <p>
                 Using 100% of your brain ... or just watch Nolan&#x27;s movie
               </p>
+              <div class="faq-btn">
+                <i class="fas fa-chevron-down"></i>
+                <i class="fas fa-times"></i>
+              </div>
             </div>
           </div>
           <div class="faqItem closed">
@@ -1343,6 +1368,10 @@
                 Anything ... as long as they are legal, and allowed by your
                 local law
               </p>
+              <div class="faq-btn">
+                <i class="fas fa-chevron-down"></i>
+                <i class="fas fa-times"></i>
+              </div>
             </div>
           </div>
           <div class="faqItem closed">
@@ -1351,6 +1380,10 @@
             </h3>
             <div class="faqItem__answer">
               <p>We don&#x27;t know for sure</p>
+              <div class="faq-btn">
+                <i class="fas fa-chevron-down"></i>
+                <i class="fas fa-times"></i>
+              </div>
             </div>
           </div>
           <div class="faqItem closed">
@@ -1367,6 +1400,10 @@
                   >viszard_business@protonmail.com</a
                 >
               </p>
+              <div class="faq-btn">
+                <i class="fas fa-chevron-down"></i>
+                <i class="fas fa-times"></i>
+              </div>
             </div>
           </div>
         </div>
