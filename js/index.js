@@ -198,6 +198,7 @@ counters.forEach(counter => {
 faqBtn.forEach(btn => {
     btn.addEventListener('click', () => {
         btn.parentElement.parentElement.classList.toggle('faq-active')
+        console.log(btn)
     })
 })
 
