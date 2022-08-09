@@ -7,6 +7,9 @@ const searchCity = document.getElementById("search-city");
 const countryMatchList = document.getElementById("country-match-list")
 const stateMatchList = document.getElementById("state-match-list")
 const cityMatchList = document.getElementById("city-match-list")
+const faqBtn = document.querySelectorAll('.faq-btn');
+const counters = document.querySelectorAll('.countup');
+
 
 const style = `
 display: block;
@@ -166,4 +169,37 @@ const autofillCity = match => {
 searchCountry.addEventListener("input", () => searchCountries(searchCountry.value));
 searchState.addEventListener("input", () => searchStates(searchState.value));
 searchCity.addEventListener("input", () => searchCities(searchCity.value));
+
+
+// count up 
+counters.forEach(counter => {
+    counter.innerText = '0';
+
+    const updateCounter = () => {
+        const target = +counter.getAttribute('data-target');
+        const c = +counter.innerText
+
+        const increment = target / 1000
+
+        if(c < target) {
+            counter.innerText = `${Math.ceil(c + increment)}`;
+            setTimeout(updateCounter, 1)
+        }
+
+    }
+
+    updateCounter()
+
+})
+
+
+
+
+faqBtn.forEach(btn => {
+    btn.addEventListener('click', () => {
+        btn.parentElement.parentElement.classList.toggle('faq-active')
+        console.log(btn)
+    })
+})
+
 

@@ -183,6 +183,10 @@ body {
   margin-bottom: 13px !important;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 .btn {
   display: inline-flex;
   position: relative;
@@ -219,6 +223,11 @@ body {
   -o-transform: translateY(-3px);
 }
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> main
 .btn::after {
   content: '';
   position: absolute;
@@ -229,11 +238,19 @@ body {
   left: 0;
   z-index: -1;
   background: #fff;
+<<<<<<< HEAD
   transition: 0.4s ease-in;
   -webkit-transition: 0.4s ease-in;
   -moz-transition: 0.4s ease-in;
   -ms-transition: 0.4s ease-in;
   -o-transition: 0.4s ease-in;
+=======
+  transition: .4s ease-in;
+  -webkit-transition: .4s ease-in;
+  -moz-transition: .4s ease-in;
+  -ms-transition: .4s ease-in;
+  -o-transition: .4s ease-in;
+>>>>>>> main
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
@@ -337,6 +354,11 @@ a,
   backface-visibility: hidden;
 }
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> main
 /* animation  */
 @keyframes moveInRight {
   0% {
@@ -346,6 +368,7 @@ a,
     -moz-transform: translateX(50px);
     -ms-transform: translateX(50px);
     -o-transform: translateX(50px);
+<<<<<<< HEAD
   }
   80% {
     transform: translateX(-10px);
@@ -363,6 +386,26 @@ a,
     -ms-transform: translate(0);
     -o-transform: translate(0);
   }
+=======
+}
+80% {
+  transform: translateX(-10px);
+  -webkit-transform: translateX(-10px);
+  -moz-transform: translateX(-10px);
+  -ms-transform: translateX(-10px);
+  -o-transform: translateX(-10px);
+}
+
+100% {
+  opacity: 1;
+  transform: translate(0);
+  -webkit-transform: translate(0);
+  -moz-transform: translate(0);
+  -ms-transform: translate(0);
+  -o-transform: translate(0);
+}
+
+>>>>>>> main
 }
 @keyframes moveInLeft {
   0% {
@@ -372,6 +415,7 @@ a,
     -moz-transform: translateX(-50px);
     -ms-transform: translateX(-50px);
     -o-transform: translateX(-50px);
+<<<<<<< HEAD
   }
   80% {
     transform: translateX(10px);
@@ -391,6 +435,29 @@ a,
   }
 }
 @keyframes moveInBottom {
+=======
+}
+80% {
+  transform: translateX(10px);
+  -webkit-transform: translateX(10px);
+  -moz-transform: translateX(10px);
+  -ms-transform: translateX(10px);
+  -o-transform: translateX(10px);
+}
+
+100% {
+  opacity: 1;
+  transform: translateX(0);
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+}
+
+}
+@keyframes moveInBottom {
+
+>>>>>>> main
   0% {
     opacity: 0;
     transform: translateY(30px);
@@ -398,6 +465,7 @@ a,
     -moz-transform: translateY(30px);
     -ms-transform: translateY(30px);
     -o-transform: translateY(30px);
+<<<<<<< HEAD
   }
 
   100% {
@@ -429,6 +497,44 @@ a,
   -o-transform: scale(0.99);
 }
 
+=======
+}
+
+100% {
+  opacity: 1;
+  transform: translate(0);
+  -webkit-transform: translate(0);
+  -moz-transform: translate(0);
+  -ms-transform: translate(0);
+  -o-transform: translate(0);
+}
+
+}
+
+
+/* sectionBox  */
+.sectionBox {
+  transition: all .4s ease-out;
+  border-width: 0;
+  -webkit-transition: all .4s ease-out;
+  -moz-transition: all .4s ease-out;
+  -ms-transition: all .4s ease-out;
+  -o-transition: all .4s ease-out;
+}
+
+.sectionBox:hover {
+  box-shadow: 0px 0px 5px rgba(0, 0 , 0 , 0.2) !important;
+  transform: scale(.99);
+  -webkit-transform: scale(.99);
+  -moz-transform: scale(.99);
+  -ms-transform: scale(.99);
+  -o-transform: scale(.99);
+}
+
+
+
+
+>>>>>>> main
 .features {
   display: flex;
   flex-wrap: wrap;
@@ -444,13 +550,19 @@ a,
   padding: 15px 10px 0 10px;
   border-radius: 5px;
   /* box-shadow: -3px -3px 7px rgba(255, 255, 255, 0.208), 3px 3px 7px rgba(255, 255, 255, 0.193); */
+<<<<<<< HEAD
   box-shadow: -3px -3px 7px rgba(255, 255, 255, 0.208),
     3px 3px 7px rgba(255, 255, 255, 0.193);
   transition: 0.4s ease;
+=======
+  box-shadow: -3px -3px 7px rgba(255, 255, 255, 0.208), 3px 3px 7px rgba(255, 255, 255, 0.193);
+  transition: .4s ease;
+>>>>>>> main
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
+<<<<<<< HEAD
   -webkit-transition: 0.4s ease;
   -moz-transition: 0.4s ease;
   -ms-transition: 0.4s ease;
@@ -459,6 +571,16 @@ a,
 
 .feature .icon {
   transition: 0.4s ease;
+=======
+  -webkit-transition: .4s ease;
+  -moz-transition: .4s ease;
+  -ms-transition: .4s ease;
+  -o-transition: .4s ease;
+}
+
+.feature .icon {
+  transition: .4s ease;
+>>>>>>> main
 }
 
 .feature:hover .icon svg {
@@ -483,11 +605,20 @@ a,
 }
 
 .feature__description {
+<<<<<<< HEAD
   margin-top: 0;
 }
 
 /* why us  */
 .list-why-us ul {
+=======
+  margin-top: 0 ;
+}
+
+
+/* why us  */
+.list-why-us ul{
+>>>>>>> main
   list-style: none;
 }
 
@@ -500,7 +631,11 @@ a,
   border-radius: 5px;
   position: relative;
   transition: 0.5s ease;
+<<<<<<< HEAD
   box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.1), 0px -3px 3px rgba(0, 0, 0, 0.1);
+=======
+  box-shadow: 0px 3px 3px rgba(0, 0 , 0 , 0.1),              0px -3px 3px rgba(0, 0 , 0 , 0.1);
+>>>>>>> main
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
@@ -512,8 +647,12 @@ a,
   -o-transition: 0.5s ease;
 }
 
+<<<<<<< HEAD
 .mkd ol,
 .mkd ul {
+=======
+.mkd ol, .mkd ul {
+>>>>>>> main
   padding-left: 0em;
 }
 
@@ -526,19 +665,33 @@ a,
   height: 100%;
   width: 100%;
   transform: scaleX(0);
+<<<<<<< HEAD
   transition: 0.8s ease;
+=======
+  transition: .8s ease;
+>>>>>>> main
   z-index: -1;
   border-radius: 5px;
   -webkit-transform: scaleX(0);
   -moz-transform: scaleX(0);
   -ms-transform: scaleX(0);
   -o-transform: scaleX(0);
+<<<<<<< HEAD
   -webkit-transition: 0.8s ease;
   -moz-transition: 0.8s ease;
   -ms-transition: 0.8s ease;
   -o-transition: 0.8s ease;
 }
 
+=======
+  -webkit-transition: .8s ease;
+  -moz-transition: .8s ease;
+  -ms-transition: .8s ease;
+  -o-transition: .8s ease;
+}
+
+
+>>>>>>> main
 .list-why-us ul li:hover::after {
   transform: scaleX(1);
   -webkit-transform: scaleX(1);
@@ -555,6 +708,11 @@ a,
   -o-transform: scale(1.01) translateY(-3px);
 }
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> main
 /* from  */
 .form-control-shadow {
   border-radius: 4px !important;
@@ -704,4 +862,8 @@ a,
   -moz-transform: scale(1) !important;
   -ms-transform: scale(1) !important;
   -o-transform: scale(1) !important;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> main
